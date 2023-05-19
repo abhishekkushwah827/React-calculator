@@ -1,0 +1,25 @@
+.calculator{
+    width: 35%;
+    height: 80vh;
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.screen{
+    flex: 1;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    font-size: 40px;
+}
+.history{
+    background: gainsboro;
+    display: block;
+    overflow-y: auto;
+}
